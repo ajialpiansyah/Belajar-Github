@@ -1,0 +1,12 @@
+#PENGERTIAN
+Version control system adalah sistem yang menyimpan dan mengelola rekaman perubahan dari source code
+GIT adalah salah satu software yang bisa melakukan VCS
+GitHub adlah website untuk mengelola project GIT
+#ISTILAH GIT 
+1. repo : folder project kita
+2. commit : rekaman/snapshot dari repo kita
+3. hash : penanda unik pada sebuah commit
+4. checkout : berpindah ke sebuah commit
+
+#TAMBAHAN
+1. untuk melihat branch secara visual dapat dilihat di menu insight
