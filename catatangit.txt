@@ -40,3 +40,4 @@ GitHub adlah website untuk mengelola project GIT
 
 #TAMBAHAN
 1. untuk melihat branch secara visual dapat dilihat di menu insight
+2. Jika ada conflict branch masih bisa d selesaikan
