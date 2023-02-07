@@ -14,5 +14,16 @@ GitHub adlah website untuk mengelola project GIT
 9. push : mengirimkan commit ke repo
 10. pull : mengambil commit dari repo
 
+#BRANCHING
+1. membuat git branch
+2. membuat snapshot tanpa mengganggu jalur utama (master branch)
+3. digunakan untuk membuat fitur experimental
+4. 2 orang mengerjakan repo yang sama
+
+#CARA MELAKUKAN BRANCHING
+1. klik icon branch(batang)
+2. ketik nama branch
+3. klik create (nama branch)
+
 #TAMBAHAN
 1. untuk melihat branch secara visual dapat dilihat di menu insight
