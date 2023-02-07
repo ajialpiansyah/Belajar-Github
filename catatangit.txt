@@ -20,6 +20,10 @@ GitHub adlah website untuk mengelola project GIT
 3. digunakan untuk membuat fitur experimental
 4. 2 orang mengerjakan repo yang sama
 
+#MENGHAPUS BRANCH
+1. klik tab (banyak branch) branches
+2. delete branch
+
 #MERGING
 1. pilih branch yang diinginkan
 2. lalu klik "compare & pull request"
