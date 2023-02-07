@@ -20,6 +20,15 @@ GitHub adlah website untuk mengelola project GIT
 3. digunakan untuk membuat fitur experimental
 4. 2 orang mengerjakan repo yang sama
 
+#MERGING
+1. pilih branch yang diinginkan
+2. lalu klik "compare & pull request"
+3. lalu akan masuk ke halaman open a pull request
+4. klik create pull request
+5. lalu kita akan diarahkan ke tab pull request
+6. jika kita telah setuju, klik merge pull request
+7. klik confirm merge
+
 #CARA MELAKUKAN BRANCHING
 1. klik icon branch(batang)
 2. ketik nama branch
