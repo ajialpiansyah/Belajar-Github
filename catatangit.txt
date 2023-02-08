@@ -50,6 +50,13 @@ konteks : akun aji ingin menduplikat repository milik akun andita
 1. cari akun github andita
 2. pilih repo yang diinginkan
 3. klik fork
+Jika kita ingin mengedit atau menambahkan fitur pada suatu code milik orang lain
+4. pilih file/code yang diinginkan
+5. edit code/file tersebut
+6. pilih tab pull request
+7. klik new pull request
+8. klik create pull request
+9. tinggal menunggu dari andita untuk menerima perubahan tsb
 
 
 #TAMBAHAN
