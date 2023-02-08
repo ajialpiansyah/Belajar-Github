@@ -38,6 +38,20 @@ GitHub adlah website untuk mengelola project GIT
 2. ketik nama branch
 3. klik create (nama branch)
 
+#FORK/FORKING
+- Membuat copy/duplikat dari repo orang lain (beserta historynya)
+- Jembatan antara repo original dan duplikatnya
+- Modifikasi terhadap repo original
+- Berkontribusi pada repo orang lain
+- Fork tidak sama dengan clone
+
+#CARA MELAKUKAN FORKING
+konteks : akun aji ingin menduplikat repository milik akun andita
+1. cari akun github andita
+2. pilih repo yang diinginkan
+3. klik fork
+
+
 #TAMBAHAN
 1. untuk melihat branch secara visual dapat dilihat di menu insight
 2. Jika ada conflict branch masih bisa d selesaikan
