@@ -1,1 +1,29 @@
+#3 AREA PADA REPO GIT
+1. Working Tree -> folder tempat kalian bekerja atau kalian punya folder yang diisi dengan file-file projek kalian
+2. Staging Area -> kita memberitahu git kalau kita melakukan perubahan pada folder kita (belum dicommit)
+3. History -> perubahan yang telah dicommit 
+- workflow
+  Working Tree -> (git add) -> Staging Area -> (git commit) -> History
 
+#DILAKUKAN DI CMD
+- git --version untuk untuk memberitahu bahwa git sudah terinstall 
+
+#DILAKUKAN DI GITBASH
+- clear untuk membersihkan gitbash
+- git untuk memberitahu bahwa git sudah terinstall
+- pwd (print working directory utk mengetahui kalian sdang bekerja di folder apa
+- ls untuk mengetahui file dan folder yang tersedia
+- Untuk membuka folder di CMD dan gitbash atau pindah ke folder lain, Anda harus menggunakan perintah “cd” 
+  (singkatan dari ‘change directory‘). Perintah ‘cd‘ memungkinkan Anda untuk mengubah direktori pada antarmuka baris perintah Windows. 
+  Contoh: cd D:\berkas. Jika jalur folder memiliki spasi di dalamnya (karena nama folder Anda berspasi), Anda harus mengapitnya dalam tanda
+  kutip. Contoh: cd “C”\contoh\Folder Saya
+- git init berfungsi untuk mengubah folder biasa menjadi repo git (kita meminta git utk mengawasi folder ini)
+- git add <nama file> utk menambahkan file ke staging area
+- git rm --cached <file> untuk mengeluarkan file dari staging area
+- git config --global user.name "Aji Alpiansyah" untuk memberitahu git siapa kita 
+- git config --global user.email "alpiansyahaji@gmail.com" untuk memberitahu git email kita
+- git commit -m "messages"
+
+#TAMBAHAN
+- apabila file sudah di staging area, maka file siap untuk di commit
+- sebelum git commit lakukan git config terlebih dahulu
