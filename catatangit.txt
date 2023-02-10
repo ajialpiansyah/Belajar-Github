@@ -20,8 +20,10 @@
 - git init berfungsi untuk mengubah folder biasa menjadi repo git (kita meminta git utk mengawasi folder ini)
 - git status digunakan untuk mengetahui sebuah status dari sebuah repository lokal
 - git add <nama file> utk menambahkan file ke staging area
-- git add . untuk menambahkan file-file ke staging area (perubahan lebih dari 1 file)
-- git rm --cached <file> untuk mengeluarkan file dari staging area
+- git add . untuk menambahkan file-file ke staging area (perubahan semua file)
+- git commit -am "deskripsi" untuk commit file yang modified (tidak berlaku utk penambahan file baru)
+- git reset <nama file> digunakan untuk menghapus file yang ada di staging area
+- git reset . untuk menghapus file-file di staging area (perubahan semua file)
 - git config --global user.name "Aji Alpiansyah" untuk memberitahu git siapa kita 
 - git config --global user.email "alpiansyahaji@gmail.com" untuk memberitahu git email kita
 - git commit -m "messages" untuk memberitahu git kita telah melakukan perubahan
@@ -31,9 +33,16 @@
 - git checkout <5 digit hash pertama> -- <nama file> untuk mengembalikan proses ke file "nama file"
   * konteks : kita telah menghapus file "nama file" dan kita ingin kembali ke proses dimana kita menambahkan file "nama file"
   * file "nama file" akan kembali ada di file manager dan saat di cek git status "nama file" akan ada di staging area
+- BRANCH
+  - head adlah pointer yang mengarah ke branch yang aktif/sedang digunakan
+  - git branch untuk menampilkan semua branch (yg warna hijau branch yang aktif)
+  - git branch <nama branch> untuk membuat branch baru
+  - git log --all --decorate --oneline --graph untuk memvisualisasikan history commit kita dengan graf
+  - alias <graph>="git log --all --decorate --oneline --graph" untuk menginisialisasi perintah visualisasi history commit ke var graph
+  - git checkout <nama_branch> untuk berpindah branch
   
   
-  PR : GIMANA CARANYA COMMIT FILE YANG DI DELETE
+ 
 
 
 
