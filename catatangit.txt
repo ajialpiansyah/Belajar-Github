@@ -40,6 +40,16 @@
   - git log --all --decorate --oneline --graph untuk memvisualisasikan history commit kita dengan graf
   - alias <graph>="git log --all --decorate --oneline --graph" untuk menginisialisasi perintah visualisasi history commit ke var graph
   - git checkout <nama_branch> untuk berpindah branch
+- MERGE
+  - merge terbagi 2, yakni fast forward (direct path) dan three-way merge (tidak ada direct path)
+  - sebelum kita merge, pastikan kita sudah di branch utama (master) terlebih dahulu
+  - git merge <nama branch> untuk menggabungkan branch
+  - git branch -d <nama branch> untuk menghapus branch yang telah di merge
+  - git branch -D <nama branch> untuk menghapus branch yang belum di merge
+  - git branch --merged untuk mengetahui branch mana yang telah dimerge
+  - untuk three way merging, saat kita lakukan perintah merge maka akan muncul code editor. untuk code editor vim, cukup lakukan 
+    esc -> :wq! untuk mengsave pesan dan keluar dari vim
+  
   
   
  
