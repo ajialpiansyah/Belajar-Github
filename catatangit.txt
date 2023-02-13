@@ -30,6 +30,7 @@
 - git log untuk melihat history apa saja yang kita lakukan (yang telah kita commit)
 - git log -n untuk melihat banyaknya commit terakhir sebanyak n commit
 - git log -- <nama file> untuk melihat commit spesifik file tertentu
+- git checkout <7 digit hash pertama> untuk kembali ke commit tertentu
 - git checkout <5 digit hash pertama> -- <nama file> untuk mengembalikan proses ke file "nama file"
   * konteks : kita telah menghapus file "nama file" dan kita ingin kembali ke proses dimana kita menambahkan file "nama file"
   * file "nama file" akan kembali ada di file manager dan saat di cek git status "nama file" akan ada di staging area
@@ -49,7 +50,16 @@
   - git branch --merged untuk mengetahui branch mana yang telah dimerge
   - untuk three way merging, saat kita lakukan perintah merge maka akan muncul code editor. untuk code editor vim, cukup lakukan 
     esc -> :wq! untuk mengsave pesan dan keluar dari vim
-  
+- MERGE CONFLICT
+  - terjadi merge conflict karena ada branch yang mengerjakan baris yang sama
+  - tahapan
+    1. git merge <nama  branch>
+    2. akan terbuka code editor dan kita pilih code mana yang ingin kita ambil
+    3. lakukan git status, maka akan ada notifikasi "you have unmerged path ....."
+    4. git add .
+    5. git commit -m "messages"
+    6. git branch -d <nama branch> untuk menghapus branch yg sudah tidak terpakai
+    
   
   
  
