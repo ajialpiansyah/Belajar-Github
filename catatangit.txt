@@ -59,8 +59,20 @@
     4. git add .
     5. git commit -m "messages"
     6. git branch -d <nama branch> untuk menghapus branch yg sudah tidak terpakai
-    
-  
+- GIT REMOTE
+  - kita akan membuat duplikat dari repo (yang berada di komputer kita) ke github
+  - komputer kita sebut lokal dan github kita sebut remote
+  - push adalah ketika kita melakukan perubahan dilokal dan mengirimkannya ke remote (github)
+  - pull adalah ketika ada orang lain yang melakukan perubahan di remote dan kita menariknya ke lokal kita
+  - git clone untuk mengambil repo di github ke lokal
+  - git remote untuk melihat nama remote
+  - git remote -v untuk melihat alamat remote
+  - open git bash di tempat yang diinginkan -> clone -> cd ke file yang diclone (otomatis sudah git init) -> lakukan perubahan
+    (menggunakan git add, git commit, git status, graph) -> git push (utk mengirim perubahan ke remote/github)
+    konteks : ketika kita hanya punya file di github dan kita ingin modifikasi di komputer kita dan mengirimkannya kembali ke github
+  - buat folder di lokal -> git init -> lakukan perubahan (mnggnkn git add, git commit, dll.) -> buat repo di github -> 
+    git remote add <nama remote> https://github.com/ajialpiansyah/test-remote2.git -> git push -u <nama remote> master
+    konteks : ketika kita hanya punya file di lokal dan kita ingin mengirimkannya ke github
   
  
 
