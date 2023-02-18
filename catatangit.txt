@@ -73,7 +73,10 @@
   - buat folder di lokal -> git init -> lakukan perubahan (mnggnkn git add, git commit, dll.) -> buat repo di github -> 
     git remote add <nama remote> https://github.com/ajialpiansyah/test-remote2.git -> git push -u <nama remote> master
     konteks : ketika kita hanya punya file di lokal dan kita ingin mengirimkannya ke github
-  
+  - saya buat file di folder lokal dan teman saya buat file di github -> teman saya menyimpan file hasil pekerjaannya -> saya 
+    kirim file yang saya buat di lokal (git add, git commit, git push) -> dilanjutkan bertanya pada teman saat kita dapat tutor sebaya
+    konteks : jika file sudah tersedia di lokal dan github. namun, teman kita telah memodifikasi file di github dan saya sedang
+    memodifikasi di lokal (modifikasi baris yang sama). dan saat saya ingin push filenya, ternyata terjadi  
  
 
 
